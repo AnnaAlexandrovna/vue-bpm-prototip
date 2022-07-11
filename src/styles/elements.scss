@@ -1,0 +1,31 @@
+button {
+    border: none;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background: none;
+    cursor: pointer;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+
+    &:hover {
+        background: lighten(#747c8c, 45%);
+    }
+}
+
+input::file-selector-button {
+    border: none;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background: none;
+    cursor: pointer;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+
+    &:hover {
+        background: lighten(#747c8c, 45%);
+    }
+}
+
+input[type="file"] {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
